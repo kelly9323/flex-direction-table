@@ -1,0 +1,31 @@
+section {
+  width: 600px;
+  margin: auto;
+}
+h1 {
+  font-size: 2rem;
+}
+button {
+  padding: 18px;
+  border: 3px solid #58c0ef;
+  background-color: white;
+  margin-right: 5px;
+}
+button:hover,
+.active {
+  background-color: #55c0f3;
+  color: white;
+}
+
+.container {
+  border: 3px solid #58c0ef;
+  margin-top: 10px;
+  display: flex;
+  min-height: 200px;
+}
+.block {
+  background-color: #98dffb;
+  padding: 20px;
+  margin: 3px;
+  font-size: 1.5rem;
+}
